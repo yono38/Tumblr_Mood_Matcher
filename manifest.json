@@ -1,0 +1,11 @@
+{
+  "name": "Tumblr Test",
+  "version": "1.0",
+  "description": "This should make a popup on tumblr reblog pages",
+  "content_scripts": [
+    {
+     "matches" : ["http://www.tumblr.com/reblog/*"],
+     "js" : ["jquery-1.7.1.min.js", "myscript.js"]
+    }
+  ]
+}
